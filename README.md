@@ -8,7 +8,7 @@ This dataset provides side-channel traces collected from the CW308T-STM32F3 targ
 <div align="center">
     <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/STM32F3.png" alt="Editor" width="240">
     <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/setups.jpg" alt="Editor" width="400">
-    <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/AES encryption mode.png" alt="Editor" width="500">
+    <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/AES encryption mode.png" alt="Editor" width="640">
 </div>
 
 
