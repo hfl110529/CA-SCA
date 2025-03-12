@@ -9,20 +9,17 @@ This dataset provides side-channel traces collected from the CW308T-STM32F3 targ
 The last round keys (first byte) corresponding to the data set are 3E, 5F, 61, 34, DF.
 
 
-Repository structure
+**Repository structure**
 
 This repository is composed of the following folders and script:
 
-./Dataset: the dataset (.npy format) used in the experiments.
+**./Dataset:** the dataset (.npy format) used in the experiments.
 
-./models: contains the final model.
+**./models:** contains the final model.
 
-. /CA-SCA_Demo.ipynb: A notebook
+**. /CA-SCA_Demo.ipynb:** A notebook file containing code and output. The notebook demonstrates how to load the dataset, how to preprocess the data, how to perform cross-attention training, and how to evaluate the model.
 
-Each dataset is composed of the following folders and script:
 
-- **./Data:** the dataset (.npy format) used in the experiments. 
-- **./models**: contains the pre-trained model, fine-tuned model, etc.
-- **..._CDPA_Demo.ipynb**: the notebook file that contains both codes and outputs. This notebook demonstrates how to load a dataset, how to pre-process the data, how to fine-tune a network, how to evaluate the pre-trained and fine-tuned models, etc. 
+
 
 
