@@ -1,27 +1,23 @@
-# Cross-Device-Profiled-Attack
- 
-This repository contains Demos and data on how to reproduce the results presented in "Cross-Device Profiled Side-Channel Attack with Unsupervised Domain Adaptation."
+# Cross-Attention Side-Channel Analysis
 
-## Datasets
+This repository contains Demos and data on how to reproduce the results presented in "Cross-Attention for AES Mode Variation in Side-Channel Analysis."
 
-### Different_Devices
+### Dataset
 
-1. **XMEGA**. Unprotected software AES-128 implementation. Side-channel traces are acquired from eight XMEGA chips. The secret keys (first byte) for the eight devices are set to 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08.
-2. **SAKURA_AES**. Unprotected hardware AES-128 implementation. Side-channel traces are acquired from three SAKURA-G boards. The last round keys (second byte) for the three devices are 0x21, 0xCD, and 0x8F.
-3. **CHES_CTF_2018**. Masked software AES-128 implementation. We use the dataset provided by [Perin et al](https://github.com/AISyLab/EnsembleSCA "Perin et al"). The secret keys  (first byte) for the profiling and target devices are 0x17 and 0x2E. This dataset is available at [https://github.com/AISyLab/EnsembleSCA](https://github.com/AISyLab/EnsembleSCA).
+This dataset provides side-channel traces collected from the CW308T-STM32F3 target board, covering five AES encryption modes: ECB, CBC, CTR, CFB, and OFB. 
 
-### Different_Implementations
-We simulate different implementations by adding artificial countermeasures/noise to the original [ASCAD](https://github.com/ANSSI-FR/ASCAD "ASCAD") dataset. These experiments simulate a complex attack scenario that the target device is treated as a black box that can turn on side-channel countermeasures. The added countermeasures/noise include:
-1. **Gaussian Noise**.
-2. **Desynchronization**.
-3. **Clock Jitters**.
-### Different_Probe_Positions
-1. **XMEAGA_EM**. Unprotected AES-128 encryption. This dataset is captured using a near-field probe, each time at a similar position but with human error. The secret keys (first byte) for the eight devices are set to 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08.
+The last round keys (first byte) corresponding to the data set are 3E, 5F, 61, 34, DF.
 
 
-----------
+Repository structure
 
-## Repository structure
+This repository is composed of the following folders and script:
+
+./Dataset: the dataset (.npy format) used in the experiments.
+
+./models: contains the final model.
+
+. /CA-SCA_Demo.ipynb: A notebook
 
 Each dataset is composed of the following folders and script:
 
