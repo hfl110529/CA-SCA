@@ -8,7 +8,7 @@ This dataset provides side-channel traces collected from the CW308T-STM32F3 targ
 <div align="center">
 
 </div>
-    <img src="https://github.com/hfl110529/CA-SCA/tree/main/figures/STM32F3.png" alt="Editor" width="300">
+    <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/STM32F3.png" alt="Editor" width="300">
 The last round keys (first byte) corresponding to the data set are 3E, 5F, 61, 34, DF.
 
 
