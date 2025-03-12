@@ -6,7 +6,7 @@ This repository contains Demos and data on how to reproduce the results presente
 
 This dataset provides side-channel traces collected from the CW308T-STM32F3 target board, covering five AES encryption modes: ECB, CBC, CTR, CFB, and OFB. 
 <div align="center">
-    <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/STM32F3.png" alt="Editor" width="250">
+    <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/STM32F3.png" alt="Editor" width="240">
     <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/setups.jpg" alt="Editor" width="400">
     <img src="https://github.com/hfl110529/CA-SCA/raw/main/figures/AES encryption mode.png" alt="Editor" width="500">
 </div>
