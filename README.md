@@ -12,7 +12,7 @@ This dataset provides side-channel traces collected from the CW308T-STM32F3 targ
 </div>
 
 
-The last round keys (first byte) corresponding to the data set are 3E, 5F, 61, 34, DF.
+The last round keys (first byte) corresponding to the data set are 3E, 5F, EA, 34, DF.
 
 
 ### Repository structure
