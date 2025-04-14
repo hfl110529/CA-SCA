@@ -21,7 +21,7 @@ This repository is composed of the following folders and script:
 
 **./Dataset:** the dataset (.npy format) used in the experiments.
 
-**./models:** contains the final model.
+**./models_CA:** contains the final model.
 
 **. /CA-SCA_Demo.ipynb:** A notebook file containing code and output. The notebook demonstrates how to load the dataset, how to preprocess the data, how to perform cross-attention training, and how to evaluate the model.
 
